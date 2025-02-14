@@ -1,0 +1,124 @@
+/* WARNING */
+/* THIS FEATURE IS POTENTIALLY DANGEROUS */
+/* IF YOU ARE NOT A DEVELOPER CLOSE THIS EDITOR NOW */
+
+/* Write some custom CSS here... */
+
+.viewbar {
+  background-color: #21252b !important;
+  color: #ffffff !important;
+}
+
+.viewbar .button,
+.viewbar .spacer,
+.viewbar .toolbar-spacer-y {
+  background-color: #21252b !important;
+  color: #ffffff80 !important;
+}
+
+.viewbar .button.active,
+.viewbar .button:active {
+  background-color: #282c34 !important;
+  color: #ffffff !important;
+}
+
+.viewbar .button:not(.active):not(:active):hover {
+  background-color: #282c34 !important;
+  color: #ffffffbf !important;
+}
+
+.sidebar {
+  background-color: #21252b !important;
+  color: #ffffff !important;
+}
+
+.panel {
+  background-color: #21252b !important;
+  color: #ffffff !important;
+}
+
+.layout,
+.layout-header,
+.layout-footer,
+.layout-content {
+  border-color: transparent !important;
+}
+
+.mainbar,
+.mainbar .toolbar:not(.viewlet-toolbar),
+.tabbar .tab.active,
+.tabbar .tabbar-button.active,
+.tabbar .tab:active,
+.tabbar .tabbar-button:active {
+  background-color: #282c34 !important;
+  color: #ffffff !important;
+}
+
+.monaco-editor,
+.monaco-editor-background,
+.monaco-editor .inputarea.ime-input {
+  background-color: #282c34 !important;
+}
+.preview {
+  padding: 2rem !important;
+  background-color: #353b45 !important;
+}
+
+.statusbar,
+.statusbar .button {
+  background-color: #21252b !important;
+  color: #ffffff !important;
+}
+
+.button.primary {
+  background-color: #3c4450 !important;
+  color: #ffffff !important;
+  border-color: #3c4450 !important;
+}
+
+input.primary,
+textarea.primary,
+.label.primary,
+.container.primary,
+.card.primary,
+.tagbox.primary {
+  background-color: #282c34 !important;
+  color: #ffffff !important;
+  border-color: #3c4450 !important;
+}
+
+.button.primary.active,
+.button.primary:active {
+  background-color: #546175 !important;
+  color: #ffffff !important;
+  border-color: #3c4450 !important;
+}
+
+.button.primary:not(.active):not(:active):hover {
+  background-color: #8895a8 !important;
+}
+
+.titlebar,
+.titlebar .button {
+  background-color: #21252b !important;
+  color: #ffffff !important;
+}
+
+.titlebar .button.close {
+  background-color: #21252b !important;
+  color: #ffffff !important;
+}
+
+.tabbar .tab.active,
+.tabbar .tabbar-button.active,
+.tabbar .tab:active,
+.tabbar .tabbar-button:active {
+  background-color: #353b45 !important;
+  color: #ffffff !important;
+}
+
+.tabbar .tab:not(:hover):not(:active):not(.hover):not(.active),
+.tabbar .tabbar-button:not(:hover):not(:active):not(.hover):not(.active) {
+  background-color: #282c34 !important;
+  color: #a6a6a6 !important;
+}
